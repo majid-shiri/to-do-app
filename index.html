@@ -1,0 +1,103 @@
+
+<html>
+  <head>
+	<link href="./css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link href="./sass/style.css" rel="stylesheet" />
+    <title>to do App</title>
+</head>
+<body class="bg-light">
+	<div class="container">
+	  <main>
+
+		<div class="py-5 text-center">
+		  <img class="d-block mx-auto mb-4" src="logo.svg" alt="" width="150" >
+		</div>
+		<div class="row">
+			<div class="col">
+				<form class="needs-validation" novalidate="">
+				  
+				  
+					<div class="search">
+					  <input type="text" id="search-item" placeholder="Serach..." class="form-control">
+					</div>
+	  
+					<hr class="my-4">
+					<ul class="list-unstyled" id="tasklist">
+					  
+					</ul>
+					
+		  
+					<div class="form-check">
+					  <input type="checkbox" class="form-check-input" id="hide">
+					  <label class="form-check-label" for="hide">Hide All tasks</label>
+					</div>
+	  
+					<hr class="my-4">
+					<div class="mb-3">
+					  <label for="headerJob" class="form-label">Header</label>
+					  <input type="text" class="form-control" id="headerJob" placeholder="Please Enter Header ...">
+					</div>
+					<div class="mb-3">
+					  <label for="contentJob" class="form-label">Task</label>
+					  <textarea placeholder="Please Enter job ..." class="form-control" id="contentJob" rows="3"></textarea>
+					</div>
+					<div class="mb-3">
+					  <label for="colorTask" class="form-label">Color Task</label>
+					  <ul id="colorTask" class="list-inline">
+						  <li class="list-inline-item li-blue " data-color="blue"><span></span></li>
+						  <li class="list-inline-item li-indigo" data-color="indigo"><span></span></li>
+						  <li class="list-inline-item li-purple" data-color="purple"><span></span></li>
+						  <li class="list-inline-item li-pink " data-color="pink"><span></span></li>
+						  <li class="list-inline-item li-red" data-color="red"><span></span></li>
+						  <li class="list-inline-item li-orange " data-color="orange"><span></span></li>
+						  <li class="list-inline-item li-yellow" data-color="yellow"><span></span></li>
+						  <li class="list-inline-item li-green" data-color="green"><span></span></li>
+						  <li class="list-inline-item li-teal" data-color="teal"><span></span></li>
+						  <li class="list-inline-item li-cyan" data-color="cyan"><span></span></li>
+					  </ul>
+					</div>
+				  <div class="col-md-6">
+					  <button type="button" class="btn btn-primary" id="addBtn">Add</button>
+	  
+	  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+		<div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+		  <div class="toast-header">
+			  <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"> <defs>
+				  <radialGradient id="Gradient10"
+				  cx="21.152%"
+				  cy="86.063%"
+				  fx="21.152%"
+				  fy="86.063%"
+				  r="79.941%">
+					<stop offset="0%" stop-color="hsla(68, 75%, 52%, 1)" />
+					<stop offset="100%" stop-color="hsla(168, 75%, 52%, 1)" />
+				  </radialGradient>
+				</defs>
+				<rect width="100%" height="100%" fill="url('#Gradient10')"></rect>
+			  </svg>
+			<strong class="me-auto">tODo</strong>
+			<small></small>
+			<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+		  </div>
+		  <div class="toast-body"></div>
+		</div>
+	  </div>
+				  </div>
+					
+				  </form>
+			</main>
+			</div>
+		</div>
+		
+		
+	  <footer class="my-5 pt-5 text-muted text-center text-small">
+		<p class=" lead">Implement your to-do list with JavaScript</p>
+		<p class="mb-1">© 2023-2017 MSH</p>
+	  </footer>
+	</div>
+		<script src="./js/bootstrap.bundle.min.js"></script>
+		<script src="./js/todo.js"></script>
+</body>
+</html>
+

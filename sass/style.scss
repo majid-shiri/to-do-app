@@ -1,0 +1,80 @@
+.callout {
+    padding: 10px 30px ;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 10px;
+    p:last-child {
+      margin-bottom: 0;
+    }
+    .form-check-input{
+      position: absolute;
+    }
+    code {
+      border-radius: 5px;
+    }
+    & + .bs-callout {
+      margin-top: -5px;
+    }
+  }
+  .deleteItem {
+    float: right;
+  }
+  $colors:(
+    blue:var(--bs-blue),
+    indigo:var(--bs-indigo),
+    purple:var(--bs-purple),
+    pink:var(--bs-pink),
+    red:var(--bs-red),
+    orange:var(--bs-orange),
+    yellow:var(--bs-yellow),
+    green:var(--bs-green),
+    teal:var(--bs-teal),
+    cyan:var(--bs-cyan),
+  );
+  @each $name,$color in $colors {
+    .callout-#{$name}:not([class*='text-decoration-line-through']) {
+      .headerjobs {
+        color: $color;
+        font-weight:700; 
+      }
+      .contentjobs{
+        font-size: small;
+      }
+      &:hover:not([class*='text-decoration-line-through']){
+        border-left-color: $color;
+      }
+      
+    }
+    .li-#{$name} {
+      $size:1.5;
+       &:has(span) {
+        background-color: $color;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 100%;
+        &:hover{
+          scale: $size;
+        }
+      }
+      &.active{
+         scale: $size;
+        border: solid 1px var(--bs-gray);
+        padding: 5px;
+        border-radius: 100%;
+      }
+    }
+
+    .callout-#{$name}:hover{
+      .deleteItem {
+         color: #d9534f;
+         transition: all 0.2s ease-in;
+      }
+    }
+  }
+
+  ul{
+    padding-inline-start: 0%;
+  }
+
+  

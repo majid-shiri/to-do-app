@@ -1,0 +1,348 @@
+.callout {
+  padding: 10px 30px;
+  margin: 10px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 10px;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.callout .form-check-input {
+  position: absolute;
+}
+.callout code {
+  border-radius: 5px;
+}
+.callout + .bs-callout {
+  margin-top: -5px;
+}
+
+.deleteItem {
+  float: right;
+}
+
+.callout-blue:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-blue);
+  font-weight: 700;
+}
+.callout-blue:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-blue:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-blue);
+}
+
+.li-blue:has(span) {
+  background-color: var(--bs-blue);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-blue:has(span):hover {
+  scale: 1.5;
+}
+.li-blue.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-blue:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+.callout-indigo:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-indigo);
+  font-weight: 700;
+}
+.callout-indigo:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-indigo:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-indigo);
+}
+
+.li-indigo:has(span) {
+  background-color: var(--bs-indigo);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-indigo:has(span):hover {
+  scale: 1.5;
+}
+.li-indigo.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-indigo:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+.callout-purple:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-purple);
+  font-weight: 700;
+}
+.callout-purple:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-purple:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-purple);
+}
+
+.li-purple:has(span) {
+  background-color: var(--bs-purple);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-purple:has(span):hover {
+  scale: 1.5;
+}
+.li-purple.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-purple:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+.callout-pink:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-pink);
+  font-weight: 700;
+}
+.callout-pink:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-pink:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-pink);
+}
+
+.li-pink:has(span) {
+  background-color: var(--bs-pink);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-pink:has(span):hover {
+  scale: 1.5;
+}
+.li-pink.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-pink:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+.callout-red:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-red);
+  font-weight: 700;
+}
+.callout-red:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-red:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-red);
+}
+
+.li-red:has(span) {
+  background-color: var(--bs-red);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-red:has(span):hover {
+  scale: 1.5;
+}
+.li-red.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-red:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+.callout-orange:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-orange);
+  font-weight: 700;
+}
+.callout-orange:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-orange:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-orange);
+}
+
+.li-orange:has(span) {
+  background-color: var(--bs-orange);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-orange:has(span):hover {
+  scale: 1.5;
+}
+.li-orange.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-orange:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+.callout-yellow:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-yellow);
+  font-weight: 700;
+}
+.callout-yellow:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-yellow:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-yellow);
+}
+
+.li-yellow:has(span) {
+  background-color: var(--bs-yellow);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-yellow:has(span):hover {
+  scale: 1.5;
+}
+.li-yellow.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-yellow:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+.callout-green:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-green);
+  font-weight: 700;
+}
+.callout-green:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-green:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-green);
+}
+
+.li-green:has(span) {
+  background-color: var(--bs-green);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-green:has(span):hover {
+  scale: 1.5;
+}
+.li-green.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-green:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+.callout-teal:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-teal);
+  font-weight: 700;
+}
+.callout-teal:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-teal:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-teal);
+}
+
+.li-teal:has(span) {
+  background-color: var(--bs-teal);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-teal:has(span):hover {
+  scale: 1.5;
+}
+.li-teal.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-teal:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+.callout-cyan:not([class*=text-decoration-line-through]) .headerjobs {
+  color: var(--bs-cyan);
+  font-weight: 700;
+}
+.callout-cyan:not([class*=text-decoration-line-through]) .contentjobs {
+  font-size: small;
+}
+.callout-cyan:not([class*=text-decoration-line-through]):hover:not([class*=text-decoration-line-through]) {
+  border-left-color: var(--bs-cyan);
+}
+
+.li-cyan:has(span) {
+  background-color: var(--bs-cyan);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+}
+.li-cyan:has(span):hover {
+  scale: 1.5;
+}
+.li-cyan.active {
+  scale: 1.5;
+  border: solid 1px var(--bs-gray);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.callout-cyan:hover .deleteItem {
+  color: #d9534f;
+  transition: all 0.2s ease-in;
+}
+
+ul {
+  -webkit-padding-start: 0%;
+          padding-inline-start: 0%;
+}/*# sourceMappingURL=style.css.map */
